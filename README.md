@@ -14,7 +14,7 @@ Projetos em destaque
 - SimpleSite — landing page responsiva com formulário (usando Formspree)
 
 Contato
-- Email: seu-email@exemplo.com
+- Email: botzul02@gmail.com
 - Twitter / X: @seu_usuario
 - LinkedIn: https://www.linkedin.com/in/seu-perfil
 

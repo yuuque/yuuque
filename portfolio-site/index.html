@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Matheus - YUUQUE — Portfólio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <h1>Matheus <span class="muted">— YUUQUE</span></h1>
+    <p class="role">Desenvolvedor de bots & sites</p>
+    <nav class="nav">
+      <a href="#projects">Projetos</a>
+      <a href="#about">Sobre</a>
+      <a href="#contact">Contato</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="projects" class="projects">
+      <h2>Projetos</h2>
+      <div class="cards">
+        <article class="card">
+          <h3>YuuqueBot</h3>
+          <p>Bot para Discord com comandos utilitários e integração básica.</p>
+          <a class="btn" href="../yuuquebot/">Ver código</a>
+        </article>
+
+        <article class="card">
+          <h3>SimpleSite</h3>
+          <p>Landing page responsiva com formulário via Formspree.</p>
+          <a class="btn" href="../simplesite/">Ver código</a>
+        </article>
+      </div>
+    </section>
+
+    <section id="about" class="about">
+      <h2>Sobre</h2>
+      <p>Eu crio automações e interfaces simples e robustas. Trabalho com Node.js para bots e com HTML/CSS/JS para sites estáticos.</p>
+    </section>
+
+    <section id="contact" class="contact">
+      <h2>Contato</h2>
+      <p>Prefere email? mande para: <strong>botzul02@gmail.com</strong></p>
+
+      <form id="contact-form" action="https://formspree.io/f/YOURENDPOINT" method="POST">
+        <label>Nome <input name="name" required></label>
+        <label>Email <input type="email" name="email" required></label>
+        <label>Mensagem <textarea name="message" required></textarea></label>
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <small>© Matheus - YUUQUE</small>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

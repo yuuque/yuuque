@@ -1,0 +1,8 @@
+body{font-family:Arial,Helvetica,sans-serif;margin:0;color:#0b1220}
+header{background:#7dd3fc;padding:1rem;text-align:center}
+.hero{padding:3rem;text-align:center}
+.cta{display:inline-block;margin-top:1rem;background:#022;color:#fff;padding:.6rem 1rem;border-radius:6px;text-decoration:none}
+form{max-width:520px;margin:1rem auto;display:flex;flex-direction:column;gap:.5rem}
+input,textarea{padding:.6rem;border:1px solid #ccc;border-radius:6px}
+button{padding:.6rem;background:#7dd3fc;border:none;border-radius:6px}
+footer{text-align:center;margin:2rem 0;color:#666}
